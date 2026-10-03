@@ -110,7 +110,7 @@ session_start();
 
   <!-- Hero Section -->
   <section style="text-align:center; padding:80px 20px; background:linear-gradient(135deg,#f5f7fa,#c3cfe2);">
-    <h1 style="font-size:48px; margin-bottom:16px;">Big Summer Sale</h1>
+    <h1 style="font-size:48px; margin-bottom:16px;">Big Mehr Mah Sale</h1>
     <p style="font-size:18px; color:#555; margin-bottom:24px;">Up to 50% off on all products. Limited time only!</p>
     <a href="#" style="display:inline-block; padding:14px 32px; background:#111; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold;">Shop Now</a>
   </section>
