@@ -108,27 +108,6 @@ session_start();
     </div>
 </nav>
 
-<main>
-    <div>
-        <h1>Welcome</h1>
-        <p>Please log in or create an account to continue.</p>
-    </div>
-</main>
-
-  <!-- Header / Navbar -->
-  <header style="display:flex; justify-content:space-between; align-items:center; padding:16px 40px; background:#111; color:#fff;">
-    <div style="font-size:22px; font-weight:bold;">🛍️ ShopEasy</div>
-    <nav style="display:flex; gap:24px;">
-      <a href="#" style="color:#fff; text-decoration:none;">Home</a>
-      <a href="#" style="color:#fff; text-decoration:none;">Products</a>
-      <a href="#" style="color:#fff; text-decoration:none;">Deals</a>
-      <a href="#" style="color:#fff; text-decoration:none;">Contact</a>
-    </nav>
-    <div>
-      <a href="#" style="color:#fff; text-decoration:none;">🛒 Cart (0)</a>
-    </div>
-  </header>
-
   <!-- Hero Section -->
   <section style="text-align:center; padding:80px 20px; background:linear-gradient(135deg,#f5f7fa,#c3cfe2);">
     <h1 style="font-size:48px; margin-bottom:16px;">Big Summer Sale</h1>
