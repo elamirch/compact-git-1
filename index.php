@@ -115,5 +115,72 @@ session_start();
     </div>
 </main>
 
+  <!-- Header / Navbar -->
+  <header style="display:flex; justify-content:space-between; align-items:center; padding:16px 40px; background:#111; color:#fff;">
+    <div style="font-size:22px; font-weight:bold;">🛍️ ShopEasy</div>
+    <nav style="display:flex; gap:24px;">
+      <a href="#" style="color:#fff; text-decoration:none;">Home</a>
+      <a href="#" style="color:#fff; text-decoration:none;">Products</a>
+      <a href="#" style="color:#fff; text-decoration:none;">Deals</a>
+      <a href="#" style="color:#fff; text-decoration:none;">Contact</a>
+    </nav>
+    <div>
+      <a href="#" style="color:#fff; text-decoration:none;">🛒 Cart (0)</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section style="text-align:center; padding:80px 20px; background:linear-gradient(135deg,#f5f7fa,#c3cfe2);">
+    <h1 style="font-size:48px; margin-bottom:16px;">Big Summer Sale</h1>
+    <p style="font-size:18px; color:#555; margin-bottom:24px;">Up to 50% off on all products. Limited time only!</p>
+    <a href="#" style="display:inline-block; padding:14px 32px; background:#111; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold;">Shop Now</a>
+  </section>
+
+  <!-- Product Grid -->
+  <section style="padding:60px 40px;">
+    <h2 style="text-align:center; margin-bottom:40px;">Featured Products</h2>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:24px; max-width:1100px; margin:0 auto;">
+
+      <!-- Product Card -->
+      <div style="border:1px solid #eee; border-radius:8px; padding:16px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        <img src="https://via.placeholder.com/200" alt="Product" style="width:100%; border-radius:6px; margin-bottom:12px;">
+        <h3 style="margin:8px 0;">Wireless Headphones</h3>
+        <p style="color:#888; margin:4px 0;">High-quality sound</p>
+        <p style="font-weight:bold; color:#111;">$59.99</p>
+        <button style="margin-top:8px; padding:10px 20px; background:#111; color:#fff; border:none; border-radius:6px; cursor:pointer;">Add to Cart</button>
+      </div>
+
+      <div style="border:1px solid #eee; border-radius:8px; padding:16px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        <img src="https://via.placeholder.com/200" alt="Product" style="width:100%; border-radius:6px; margin-bottom:12px;">
+        <h3 style="margin:8px 0;">Smart Watch</h3>
+        <p style="color:#888; margin:4px 0;">Track your fitness</p>
+        <p style="font-weight:bold; color:#111;">$99.99</p>
+        <button style="margin-top:8px; padding:10px 20px; background:#111; color:#fff; border:none; border-radius:6px; cursor:pointer;">Add to Cart</button>
+      </div>
+
+      <div style="border:1px solid #eee; border-radius:8px; padding:16px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        <img src="https://via.placeholder.com/200" alt="Product" style="width:100%; border-radius:6px; margin-bottom:12px;">
+        <h3 style="margin:8px 0;">Backpack</h3>
+        <p style="color:#888; margin:4px 0;">Durable & stylish</p>
+        <p style="font-weight:bold; color:#111;">$39.99</p>
+        <button style="margin-top:8px; padding:10px 20px; background:#111; color:#fff; border:none; border-radius:6px; cursor:pointer;">Add to Cart</button>
+      </div>
+
+      <div style="border:1px solid #eee; border-radius:8px; padding:16px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+        <img src="https://via.placeholder.com/200" alt="Product" style="width:100%; border-radius:6px; margin-bottom:12px;">
+        <h3 style="margin:8px 0;">Sunglasses</h3>
+        <p style="color:#888; margin:4px 0;">UV protection</p>
+        <p style="font-weight:bold; color:#111;">$24.99</p>
+        <button style="margin-top:8px; padding:10px 20px; background:#111; color:#fff; border:none; border-radius:6px; cursor:pointer;">Add to Cart</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="text-align:center; padding:24px; background:#111; color:#aaa; margin-top:40px;">
+    <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
